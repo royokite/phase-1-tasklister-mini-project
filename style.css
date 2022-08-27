@@ -7,11 +7,40 @@ html {
 body {
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
 }
 
-button {
-  font-size: 7px;
+.conform {
+  color: white;
+  background-color: black;
+  padding-bottom: 15px;
+}
+
+.list-group {
+  color: black;
+}
+
+body div.container .mt-3 .conform {
+  margin-top: unset;
+}
+
+
+
+/* button {
+  font-size: 12px;
+  height: 22px;
+  width: 22px;
+}
+
+.close {
+  position: relative;
+  right: 0;
+  top: 0;
+  padding: 6px 8px 6px 8px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
 }
 
 #main-content {
@@ -30,8 +59,22 @@ button {
 #list {
   margin: 10px;
   border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.75);
+  background: black;
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+#tasks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: white;
+}
+
+li {
+  color: white;
+} */
